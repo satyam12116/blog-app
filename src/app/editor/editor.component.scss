@@ -1,0 +1,103 @@
+#editorjs {
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 400px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  .editor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-upload-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .image-upload-container button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .image-upload-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .toolbar button {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toolbar button:hover {
+    background-color: #e2e2e2;
+  }
+  
+  #editorjs {
+    min-height: 500px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+  }
+  
+  #editorjs .codex-editor__redactor {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #editorjs .codex-editor__redactor p {
+    margin-bottom: 10px;
+  }
+  
+  #editorjs .codex-editor__redactor ul {
+    margin-left: 20px;
+  }
+  
+  #editorjs .codex-editor__redactor ul li {
+    list-style-type: disc;
+  }
+  

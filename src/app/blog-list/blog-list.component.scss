@@ -1,0 +1,77 @@
+/* Overall container for post list */
+.post-list {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Individual post container styled as a card */
+  .post-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%; /* Ensure the card doesn't overflow */
+    box-sizing: border-box; /* Includes padding in the element's total width */
+    overflow: hidden; /* Prevents content from overflowing */
+    margin: 0 auto;
+  }
+  
+  /* Post content area */
+  .post-card-body {
+    padding: 0;
+  }
+  
+  /* Title of each post */
+  .post-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Content of each post */
+  .post-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0; /* Add some space between content */
+    word-wrap: break-word; /* Prevents content from overflowing */
+  }
+  
+  /* Preformatted text styling (e.g., code blocks) */
+  pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap; /* Allows the code to wrap inside the container */
+  }
+  
+  /* Image styling within posts */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adds rounded corners for a more polished look */
+    display: block; /* Ensures images are block elements (removes extra space below images) */
+    margin-top: 15px; /* Adds some space above the image */
+    padding-right: 10px; /* Adds padding around the image */
+    box-sizing: border-box; /* Ensures the padding is included in the image size */
+  }
+  
+  /* Responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .post-card {
+      max-width: 90%; /* Ensures the card takes up most of the screen on smaller devices */
+    }
+  }
+  

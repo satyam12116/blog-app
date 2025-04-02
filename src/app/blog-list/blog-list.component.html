@@ -1,0 +1,8 @@
+<div class="post-list">
+    <div *ngFor="let post of posts" class="post-card">
+      <div class="post-card-body">
+        <div class="post-content" [innerHTML]="getContent(post.content.blocks)"></div>
+      </div>
+    </div>
+  </div>
+  

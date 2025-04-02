@@ -1,0 +1,15 @@
+<div class="image-upload-container">
+    <!-- Image URL Input -->
+    <label for="image-url">Enter Image URL:</label>
+    <input type="text" id="image-url" [(ngModel)]="imageUrl" placeholder="Enter image URL" />
+  
+    <!-- Button to insert image into Editor -->
+    <button (click)="addImageToEditor()">Add Image</button>
+  </div>
+  
+  <!-- Editor.js container -->
+  <div id="editorjs"></div>
+  
+  
+<button (click)="saveContent()" class="save-btn">Save Post</button>
+
