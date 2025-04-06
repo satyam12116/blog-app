@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+img {
+    width: 100%!important;
+    height: 250px;
+    border-radius: 8px; /* Adds rounded corners for a more polished look */
+    display: block; /* Ensures images are block elements (removes extra space below images) */
+    margin-top: 15px; /* Adds some space above the image */
+    padding-right: 10px; /* Adds padding around the image */
+    box-sizing: border-box; /* Ensures the padding is included in the image size */
+  }

@@ -59,8 +59,8 @@
   
   /* Image styling within posts */
   img {
-    max-width: 100%;
-    height: auto;
+    width: 100%!important;
+    height: 250px;
     border-radius: 8px; /* Adds rounded corners for a more polished look */
     display: block; /* Ensures images are block elements (removes extra space below images) */
     margin-top: 15px; /* Adds some space above the image */
@@ -71,7 +71,7 @@
   /* Responsiveness for smaller screens */
   @media (max-width: 768px) {
     .post-card {
-      max-width: 90%; /* Ensures the card takes up most of the screen on smaller devices */
+      max-width: 1000px !important; /* Ensures the card takes up most of the screen on smaller devices */
     }
   }
   
